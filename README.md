@@ -84,3 +84,105 @@ Combining subscripts and exponents:
 
 $$x_i^2$$
 
+
+
+# Displaying Curly Braces in LaTeX
+
+## 1. Curly braces as text:
+
+To show curly braces in LaTeX, use:
+
+$$ \{ \text{This is a set of curly braces} \} $$
+
+## 2. Display curly braces in text format:
+
+\{ This is another way to display curly braces in a sentence \}
+
+## Epsilon 
+$$ \epsilon $$
+
+# Derivatives in LaTeX
+
+## 1. First-Order Derivative
+
+The first-order derivative of a function \( f \) with respect to \( x \):
+
+$$ \frac{d f}{d x} $$
+
+## 2. Second-Order Derivative
+
+The second-order derivative of \( f \) with respect to \( x \):
+
+$$ \frac{d^2 f}{d x^2} $$
+
+## 3. Higher-Order Derivative (n-th order)
+
+The n-th order derivative of \( f \) with respect to \( x \):
+
+$$ \frac{d^n f}{d x^n} $$
+
+## 4. Derivative with respect to multiple variables
+
+For example, the derivative of \( f(x, y) \) with respect to \( x \) and \( y \):
+
+$$ \frac{d f}{d x}, \quad \frac{d f}{d y} $$
+
+## 5. Total Derivative
+
+The total derivative of a function \( f \) with respect to \( x \):
+
+$$ \frac{d}{d x} f(x, y(x)) = \frac{\partial f}{\partial x} + \frac{\partial f}{\partial y} \frac{d y}{d x} $$
+
+## 6. Gradient as a Derivative
+
+The gradient of a scalar function \( f \):
+
+$$ \nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right) $$
+
+## 7. Chain Rule
+
+The chain rule for a composite function \( f(g(x)) \):
+
+$$ \frac{d}{d x} f(g(x)) = \frac{d f}{d g} \cdot \frac{d g}{d x} $$
+
+## 8. Implicit Differentiation
+
+For a function defined implicitly by an equation \( f(x, y) = 0 \), the implicit derivative is:
+
+$$ \frac{d y}{d x} = -\frac{\frac{\partial f}{\partial x}}{\frac{\partial f}{\partial y}} $$
+
+
+## Partial derivatives
+# Partial Derivatives in LaTeX
+
+## 1. First-order Partial Derivative
+
+The first-order partial derivative of a function \( f \) with respect to \( x \):
+
+$$ \frac{\partial f}{\partial x} $$
+
+## 2. Second-order Partial Derivative
+
+The second-order partial derivative of \( f \) with respect to \( x \):
+
+$$ \frac{\partial^2 f}{\partial x^2} $$
+
+## 3. Mixed Partial Derivatives
+
+For mixed partial derivatives, like with respect to \( x \) and \( y \):
+
+$$ \frac{\partial^2 f}{\partial x \partial y} $$
+
+## 4. Gradient (Vector of Partial Derivatives)
+
+The gradient of a function \( f(x, y) \) is represented as:
+
+$$ \nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right) $$
+
+## 5. Laplacian (Sum of Second-Order Partial Derivatives)
+
+The Laplacian of \( f(x, y) \) is:
+
+$$ \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} $$
+
+
