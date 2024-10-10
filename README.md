@@ -57,3 +57,30 @@ a & b \\
 c & d
 \end{pmatrix}
 $$
+
+# Subscript Example in LaTeX
+
+## 1. Single Character Subscript
+
+The chemical formula for water is:
+
+$$H_2O$$
+
+## 2. Multiple Characters in Subscript
+
+To represent variables with multiple characters in subscripts, use curly braces:
+
+$$x_{sub} + y_{sub}$$
+
+## 3. Subscript in Summation
+
+The summation of i from 1 to n is:
+
+$$\sum_{i=1}^{n} i$$
+
+## 4. Subscript with Exponent
+
+Combining subscripts and exponents:
+
+$$x_i^2$$
+
